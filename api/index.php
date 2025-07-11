@@ -1,7 +1,7 @@
 <?php
 // Data Mahasiswa
 $name = "Ananda Dafa Zaky";
-$title = "Data Science Student & Aspiring Analyst";
+$title = "Student in Data Science and Analytics";
 $email = "anan23184ti@student.nurulfikri.ac.id";
 $phone = "IDN (+62) 821-1484-1600";
 $location = "Depok, West Java, Indonesia";
@@ -29,23 +29,25 @@ $projects = [
     ]
 ];
 
-// Data skill
+// Data Skill
 $skills = [
     'Languages' => ['Indonesian (Native)', 'English (Intermediate)', 'Arabic (Intermediate)'],
-    'Programming Languages' => ['Python', 'SQL', 'R'],
-    'Software' => ['Visual Studio Code', 'Google Colab', 'Jupyter Notebook', 'Microsoft Excel', 'Microsoft Word'],
-    'Other Skills' => ['Public Speaking', 'Leadership', 'Collaboration', 'Critical Thinking', 'Time Management', 'Adaptability', 'Social Media Management', 'Mentoring & Teaching']
+    'Programming Languages' => ['Python', 'R', 'SQL'],
+    'Libraries' => ['Pandas', 'NumPy', 'Matplotlib', 'Seaborn', 'Prophet', 'Streamlit', 'ggplot2', 'dplyr', 'tidyr', 'readr'],
+    'Software' => ['Jupyter Notebook', 'Google Colab', 'Visual Studio Code', 'Microsoft Excel', 'Microsoft Word'],
+    'Collaboration' => ['Git', 'GitLab', 'Google Drive'],
+    'Other Skills' => ['Public Speaking', 'Leadership', 'Collaboration', 'Critical Thinking', 'Time Management', 'Adaptability', 'Mentoring & Teaching']
 ];
 
-// Data pendidikan dan pengalaman
+// Data Pendidikan dan Pengalaman
 $education = [
     [
         'degree' => 'Informatics Engineering Student',
         'school' => $university,
-        'period' => 'Sep 2023 - Present',
+        'period' => 'Sep 2023 - Expected 2027',
         'specialization' => 'Data Science Track',
         'gpa' => '3.67/4.00',
-        'description' => 'Focused on data science, including machine learning, statistics, and real-world data problem-solving through various projects'
+        'description' => 'Focused on data science, including statistics, and real-world data problem-solving through various projects'
     ]
 ];
 
@@ -97,8 +99,8 @@ $filteredProjects = filterProjects($projects, $currentFilter);
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Portfolio of Ananda Dafa Zaky, a Data Science student specializing in machine learning and data analysis.">
-    <meta name="keywords" content="data science, machine learning, portfolio, Ananda Dafa Zaky, Nurul Fikri">
+    <meta name="description" content="Portfolio of Ananda Dafa Zaky, a Student in Data Science and Analytics.">
+    <meta name="keywords" content="data science, portfolio, Ananda Dafa Zaky, Sekolah Tinggi Teknologi Terpadu Nurul Fikri">
     <meta name="author" content="Ananda Dafa Zaky">
     <title><?php echo htmlspecialchars($name); ?> - Portfolio</title>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
@@ -938,7 +940,7 @@ $filteredProjects = filterProjects($projects, $currentFilter);
             <h2 class="section-title">About Me</h2>
             <div class="about-content">
                 <div class="about-text">
-                    <p>Hello! I am a 5th-semester Informatics Engineering student at STT Terpadu Nurul Fikri, specializing in Data Science. I have a strong interest in analytical thinking, statistics, and solving real-world data problems, demonstrated through various projects and leadership roles.</p>
+                    <p>Hello! I am a 5th-semester Informatics Engineering student at Sekolah Tinggi Teknologi Terpadu Nurul Fikri, specializing in Data Science. I have a strong interest in analytical thinking, statistics, and solving real-world data problems, demonstrated through various projects and leadership roles.</p>
                     <p>With experience in economic and company projects involving data analysis and forecasting using Python, SQL, and R, I am committed to continuous learning and delivering impactful data solutions. I also excel in public speaking, collaboration, and adaptability.</p>
                     <div class="about-stats">
                         <div class="stat-item">
@@ -1066,7 +1068,7 @@ $filteredProjects = filterProjects($projects, $currentFilter);
         <div class="social-links">
             <a href="https://www.linkedin.com/in/ananda-dafa-zaky-016b13292" aria-label="LinkedIn profile" target="_blank"><i class="fab fa-linkedin-in"></i></a>
             <a href="https://github.com/DafaZaky135" aria-label="GitHub profile" target="_blank"><i class="fab fa-github"></i></a>
-            <a href="mailto:dovejack135@gmail.com<?php echo htmlspecialchars($email); ?>" aria-label="Email contact"><i class="fas fa-envelope"></i></a>
+            <a href="mailto:<?php echo htmlspecialchars($email); ?>" aria-label="Email contact"><i class="fas fa-envelope"></i></a>
         </div>
         <p>© <?php echo date("Y"); ?> <?php echo htmlspecialchars($name); ?> - Student of Sekolah Tinggi Teknologi Terpadu Nurul Fikri.</p>
     </footer>
