@@ -35,7 +35,7 @@ $skills = [
     'Programming Languages' => ['Python', 'R', 'SQL'],
     'Libraries' => ['Pandas', 'NumPy', 'Matplotlib', 'Seaborn', 'Prophet', 'Streamlit', 'ggplot2', 'dplyr', 'tidyr', 'readr'],
     'Software' => ['Jupyter Notebook', 'Google Colab', 'Visual Studio Code', 'Microsoft Excel', 'Microsoft Word'],
-    'Collaboration' => ['Git', 'GitLab', 'Google Drive'],
+    'Collaboration' => ['Git', 'Github', 'Google Drive'],
     'Other Skills' => ['Public Speaking', 'Leadership', 'Collaboration', 'Critical Thinking', 'Time Management', 'Adaptability', 'Mentoring & Teaching']
 ];
 
