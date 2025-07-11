@@ -1068,7 +1068,7 @@ $filteredProjects = filterProjects($projects, $currentFilter);
         <div class="social-links">
             <a href="https://www.linkedin.com/in/ananda-dafa-zaky-016b13292" aria-label="LinkedIn profile" target="_blank"><i class="fab fa-linkedin-in"></i></a>
             <a href="https://github.com/DafaZaky135" aria-label="GitHub profile" target="_blank"><i class="fab fa-github"></i></a>
-            <a href="mailto:<?php echo htmlspecialchars($email); ?>" aria-label="Email contact"><i class="fas fa-envelope"></i></a>
+            <a href="mailto:anan23184ti@student.nurulfikri.ac.id<?php echo htmlspecialchars($email); ?>" aria-label="Email contact"><i class="fas fa-envelope"></i></a>
         </div>
         <p>© <?php echo date("Y"); ?> <?php echo htmlspecialchars($name); ?> - Student of Sekolah Tinggi Teknologi Terpadu Nurul Fikri.</p>
     </footer>
